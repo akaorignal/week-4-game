@@ -35,7 +35,7 @@ function win() {
 
 	alert("You win!");
 	wins ++;
-	$("#wins").text(wins);
+	$("#wins").html(wins);
 	//reset
 	
 }
@@ -44,7 +44,7 @@ function lose() {
 
 	alert("You lose!");
 	losses ++;
-	$("#losses").text(losses);
+	$("#losses").html(losses);
 	//reset
 
 
