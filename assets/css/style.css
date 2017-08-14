@@ -1,0 +1,26 @@
+body
+{
+	background-color: gray;
+}
+
+
+img 
+{
+	width: 260px;
+	height: 260px;
+}
+
+.button1, .button2, .button3, .button4
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.se, #se
+{
+border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}	
+}

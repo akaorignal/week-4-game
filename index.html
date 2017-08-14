@@ -1,0 +1,104 @@
+<!-- 
+*general 
+player has to guess the number
+there are four crystals (images) that are buttons
+generate a random number for the user at the start of the gmae
+each crystal holds a certain amound of points (num) & adds to the total score
+	hidden cyrstal num until clicked (onclick visibility)
+the player wins if the total score === the generated random num from begginning
+the player looses if they go above ( like blackjack )
+the game restarts W/L
+
+*new game 
+new randomw number is generated 
+cyrstals hold new random values
+users score and counter resets
+
+*display
+# of games W/L
+Number at the star of game can be 19-120
+Each chrystal has val of 1 - 12 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Crystals Collector Game!</title>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <!-- bootstrap -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="assets/javascript/game.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+
+
+
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Crystal Game</h1> 
+    <p>Pick a Gem to Equal the Generated Number </p> 
+  </div>
+
+</div>
+
+<!-- generated Number 
+jquery and javascript-->
+
+<center>
+<button id="start"> start </button>
+<div class=wins id=se>
+<h2>
+Wins 
+
+HEre</h2></div>
+<div class=losses id=se>
+<h2>
+ 
+Losses
+HEre</h2></div>
+<div class=answer> </div><br>
+
+<div class=guess>Number Guessed would go Here </div>
+</center>
+
+<br><br><br>
+</div>
+
+<!-- button images 
+
+<img src="assets/images/36_-Diamond-_precious_stone_gem_jewelry_diamond-512y.jpg" alt="di">
+<img src="assets/images/36_-Diamond-_precious_stone_gem_jewelry_diamond-512p.jpg" alt="di">
+<img src="assets/images/37_-Diamond-_precious_stone_gem_jewelry_diamond-512.jpg" alt="di">
+<img src="assets/images/37_-Diamond-_precious_stone_gem_jewelry_diamond-512g.jpg" alt="di"> -->
+
+<div class =buttons>
+<center>
+<button class=button1>  <img src="assets/images/36_-Diamond-_precious_stone_gem_jewelry_diamond-512y.jpg" alt="di"> </button>
+<button class=button2> <img src="assets/images/36_-Diamond-_precious_stone_gem_jewelry_diamond-512p.jpg" alt="di"> </button>
+<button class=button3>  <img src="assets/images/37_-Diamond-_precious_stone_gem_jewelry_diamond-512.jpg" alt="di">  </button>
+<button class=button4> <img src="assets/images/37_-Diamond-_precious_stone_gem_jewelry_diamond-512g.jpg" alt="di">  </button></center>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+
+
+  </script>
+
+</body>
+</html>
